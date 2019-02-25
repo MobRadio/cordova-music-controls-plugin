@@ -8,22 +8,21 @@ import android.content.Intent;
 
 public class MusicControlsNotificationKiller extends Service {
 
-	private static int NOTIFICATION_ID;
+	private final int NOTIFICATION_ID = 27071976;
 	private NotificationManager mNM;
 	private final IBinder mBinder = new KillBinder(this);
 
 	@Override
 	public IBinder onBind(Intent intent) {
-		this.NOTIFICATION_ID=intent.getIntExtra("notificationID",1);
 		return mBinder;
 	}
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		return Service.START_STICKY;
 	}
-
+	
 	@Override
-	public void onCreate() {
+	public void onDestroy() {
 		mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 		mNM.cancel(NOTIFICATION_ID);
 	}
