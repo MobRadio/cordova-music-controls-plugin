@@ -4,7 +4,7 @@
 	version="2.2.0">
 	<name>MusicControls</name>
 	<keywords>cordova,music,controller,controls,media,plugin,notification,lockscreen,now,playing</keywords>
-	<repo>https://github.com/homerours/cordova-music-controls-plugin</repo>
+	<repo>https://github.com/MobRadio/cordova-music-controls-plugin</repo>
 	<description>Music controls for Cordova apps</description>
 	<license>MIT</license>
 	<author>HomerOurs</author>
