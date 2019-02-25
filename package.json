@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/homerours/cordova-music-controls-plugin.git"
+    "url": "git+https://github.com/MobRadio/cordova-music-controls-plugin.git"
   },
   "keywords": [
     "cordova",
@@ -31,8 +31,8 @@
   "author": "homerours",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/homerours/cordova-music-controls-plugin/issues"
+    "url": "https://github.com/MobRadio/cordova-music-controls-plugin/issues"
   },
   "homepage":
-    "https://github.com/homerours/cordova-music-controls-plugin#readme"
+    "https://github.com/MobRadio/cordova-music-controls-plugin#readme"
 }
